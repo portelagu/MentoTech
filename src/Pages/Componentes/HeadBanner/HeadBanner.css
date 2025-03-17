@@ -1,0 +1,34 @@
+.head-banner-section{
+    background-image: url('../../../assets/HeadBannerImage.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.head-banner-p {
+    color: #003049;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.head-banner-h1 {
+    color: #003049;
+    font-size: 50px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-banner-h1-highlight {
+    font-weight: 800;
+    margin: 0 10px;
+}

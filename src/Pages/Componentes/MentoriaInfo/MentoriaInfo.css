@@ -1,0 +1,103 @@
+.mentoria-info-main-section {
+    background-color: #E5E5E5;
+    padding: 30px 40px;
+}
+
+.mentoria-info-main-section-desc {
+    text-align: center;
+    font-size: 40px;
+    color: #1B4965;
+    font-weight: 500; 
+    margin: 0 50px;
+}
+
+.mentoria-info-main-section-desc-highlight {
+    color: #780000;
+    font-weight: 700;
+}
+
+.mentoria-info-mentor-section {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.mentoria-info-mentor-image {
+    width: 25%;
+}
+
+.mentoria-info-mentor-informations {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    
+}
+
+.mentoria-info-mentor-title {
+color: #1B4965;
+font-weight: 800;
+font-size: 50px;
+}
+
+.mentoria-info-mentor-text {
+    max-width: 800px;
+    font-size: 25px;
+    color: #1B4965;
+    font-weight: 500;
+}
+
+.mentoria-info-mentor-button {
+    color: #E5E5E5;
+    background-color: #1B4965;
+    border-radius: 20px;
+    padding: 10px 30px;
+    max-width: 150px;
+    align-self: flex-end;
+    font-weight: 600;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+
+
+.mentoria-info-mentorado-section {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.mentoria-info-mentorado-image {
+    width: 25%;
+}
+
+.mentoria-info-mentorado-informations {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.mentoria-info-mentorado-title {
+color: #780000;
+font-weight: 800;
+font-size: 50px;
+}
+
+.mentoria-info-mentorado-text {
+    max-width: 800px;
+    font-size: 25px;
+    color: #780000;
+    font-weight: 500;
+}
+
+.mentoria-info-mentorado-button {
+    color: #E5E5E5;
+    background-color: #780000;
+    border-radius: 20px;
+    padding: 10px 30px;
+    max-width: 180px;
+    font-weight: 600;
+    margin: 10px 0;
+    text-decoration: none;
+}

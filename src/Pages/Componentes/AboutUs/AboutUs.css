@@ -1,0 +1,26 @@
+.about-us-section {
+    background-color: #1B4965 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 30px;
+}
+
+.about-us-image {
+    width: 40%;
+}
+
+
+.about-us-title {
+color: #E5E5E5;
+font-weight: 800;
+font-size: 50px;
+margin-bottom: 10px;
+}
+
+.about-us-text {
+    max-width: 954px;
+    color: #E5E5E5;
+    font-size: 20px;
+}

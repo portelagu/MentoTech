@@ -1,0 +1,18 @@
+.footer-section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: #e5e5e5;
+align-items: center;
+gap: 5px;
+padding: 20px;
+}
+
+.footer-image {
+    width: 15%;
+}
+
+.footer-text {
+color: #1B4965;
+font-weight: 500;
+}
