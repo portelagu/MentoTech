@@ -1,6 +1,6 @@
 import './MentoriaInfo.css'
-import mentorVetor from '../../../assets/mentorVetor.svg'
-import mentoradoVetor from '../../../assets/mentoradoVetor.svg'
+import mentorVetor from '../../../../assets/mentorVetor.svg'
+import mentoradoVetor from '../../../../assets/mentoradoVetor.svg'
 
 function MentoriaInfo(){
     return (

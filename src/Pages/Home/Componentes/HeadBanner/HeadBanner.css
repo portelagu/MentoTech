@@ -1,5 +1,5 @@
 .head-banner-section{
-    background-image: url('../../../assets/HeadBannerImage.png');
+    background-image: url('../../../../assets/HeadBannerImage.png');
     display: flex;
     flex-direction: column;
     justify-content: center;

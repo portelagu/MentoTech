@@ -1,0 +1,14 @@
+.head-title-section-title {
+    background-color: #1B4965;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: #E5E5E5;
+    font-weight: 500;
+    padding: 20px 5px;
+}
+
+.head-title-section-title-highlight {
+    font-weight: 700;
+    margin-left: 15px;
+}

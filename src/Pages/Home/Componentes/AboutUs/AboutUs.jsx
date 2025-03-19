@@ -1,5 +1,5 @@
 import './AboutUs.css'
-import mentotechMockup from '../../../assets/mentotechmockup.svg'
+import mentotechMockup from '../../../../assets/mentotechmockup.svg'
 
 function AboutUs(){
     return(

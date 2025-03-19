@@ -1,0 +1,21 @@
+
+
+.fale-conosco-title {
+    background-color: #1B4965;
+    font-weight: 700;
+    color: #e5e5e5;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.fale-conosco-desc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #1B4965;
+    font-weight: 500;
+    padding: 15px 0;
+    background-color: #E5E5E5;
+}

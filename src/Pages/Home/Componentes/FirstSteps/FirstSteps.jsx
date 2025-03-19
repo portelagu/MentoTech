@@ -1,7 +1,7 @@
 import './FirstSteps.css'
-import cadastroIcon from '../../../assets/cadastroIcon.svg'
-import preferenciasIcon from '../../../assets/preferenciasIcon.svg'
-import buscaIcon from '../../../assets/buscaIcon.svg'
+import cadastroIcon from '../../../../assets/cadastroIcon.svg'
+import preferenciasIcon from '../../../../assets/preferenciasIcon.svg'
+import buscaIcon from '../../../../assets/buscaIcon.svg'
 
 function FirstSteps(){
     return( 

@@ -1,9 +1,9 @@
-import Footer from "../Components/Footer/Footer";
-import Header from "../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
+import Header from "../../Components/Header/Header";
 import AboutUs from "./Componentes/AboutUs/AboutUs";
 import ActionBanner from "./Componentes/ActionBanner/ActionBanner";
 import FirstSteps from "./Componentes/FirstSteps/FirstSteps";
-import HeadBanner from "./Componentes/HeadBanner/HeadBanner";
+import HeadBanner from "../Home/Componentes/HeadBanner/HeadBanner";
 import MentoriaInfo from "./Componentes/MentoriaInfo/MentoriaInfo";
 
 function Home(){
