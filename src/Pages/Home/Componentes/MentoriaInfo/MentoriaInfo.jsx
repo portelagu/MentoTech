@@ -1,6 +1,7 @@
 import './MentoriaInfo.css'
 import mentorVetor from '../../../../assets/mentorVetor.svg'
 import mentoradoVetor from '../../../../assets/mentoradoVetor.svg'
+import { Link } from 'react-router-dom'
 
 function MentoriaInfo(){
     return (
@@ -12,7 +13,7 @@ function MentoriaInfo(){
             <div className="mentoria-info-mentor-informations">
                     <h1 className="mentoria-info-mentor-title">O MENTOR</h1>
                     <p className="mentoria-info-mentor-text">Profissional experiente que compartilha conhecimento, orienta e inspira, ajudando no desenvolvimento de carreira.</p>
-                    <a className="mentoria-info-mentor-button" href='#'>Quero ser mentor</a>
+                    <Link to="/cadastro" className="mentoria-info-mentor-button"> Quero ser mentor</Link>
                 </div>
                 <img src={mentorVetor} alt="ilustração de um mentor" className='mentoria-info-mentor-image'/>
             </section>
@@ -22,7 +23,7 @@ function MentoriaInfo(){
             <div className="mentoria-info-mentorado-informations">
                     <h1 className="mentoria-info-mentorado-title">O MENTORADO</h1>
                     <p className="mentoria-info-mentorado-text">Pessoa em busca de aprendizado e crescimento, recebendo suporte e insights para evoluir na tecnologia.</p>
-                    <a className="mentoria-info-mentorado-button" href='#'>Quero ser mentorado</a>
+                    <Link to="/cadastro" className="mentoria-info-mentorado-button">Quero ser mentorado</Link>
                 </div>
                 
             </section>

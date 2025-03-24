@@ -13,7 +13,7 @@ function Header(){
                 <li><Link to="/mentores" className='header-item-link'>Mentores</Link></li>
                 <li><Link to="/fale-conosco" className='header-item-link'>Contato</Link></li>
             </ul>
-            <a className='start-now-button' href='#'>Começar Agora</a>
+            <Link to="/cadastro"className='start-now-button'>Começar Agora</Link>
                 </div>
             </header>
         </div>

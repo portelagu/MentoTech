@@ -1,0 +1,130 @@
+.sign-up-section {
+    display: flex;
+    height: 100vh;
+}
+
+.signup-image-div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-image {
+    width: 80%;
+}
+
+.signup-form-section {
+    width: 50%;
+    background-color: #1B4965;
+    justify-content: center;
+    align-items: center;
+}
+.signup-form-description {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.signup-form-title{
+    font-size: 70px;
+    font-weight: 700;
+    color: #E5E5E5;
+    margin-top: 20px;
+}
+
+.signup-form-subtitle{
+    font-size: 25px;
+    font-weight: 400;
+    color: #E5E5E5;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form-input-div {
+    background-color: #E5E5E5;
+    display: flex;
+    width: 70%;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 7px;
+}
+.signup-form-icon {
+    width: 7%;
+}
+
+.signup-form-element {
+    background-color: #E5E5E5;
+    width: 90%;
+}
+
+.signup-form-element::placeholder{
+    color: #1B4965;
+}
+
+.signup-form-element:focus{
+    outline: none;
+}
+
+.sign-up-form-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.signup-form-input-submit-div {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 7px;
+    cursor: pointer;
+    color: #1B4965;
+}
+
+.sign-up-form-submit {
+    background-color: #E5E5E5;
+    color: #1B4965;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.signup-form-login-option {
+    color: #E5E5E5;
+    margin-top: 5px;
+}
+
+.signup-form-login-link {
+    font-weight: 700;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+
+.signup-form-input-radio-div {
+    display: flex;
+    gap: 10px;
+    margin: 5px 220px 5px 0;
+}
+
+.signup-form-input-radio {
+    display: flex;
+    gap: 5px;
+}
+
+
+.signup-form-input-radio-label {
+    color: #E5E5E5;
+    font-weight: 500;
+}
