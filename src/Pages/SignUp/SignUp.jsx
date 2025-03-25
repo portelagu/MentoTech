@@ -21,27 +21,27 @@ function SignUp(){
                 <form action="#" className="signup-form">
                     <div className='signup-form-input-div'>
                     <img src={userIcon} alt="ícone de usuário" className="signup-form-icon" />
-                    <input type="text" className="signup-form-element" placeholder='Digite o seu nome completo'/>
+                    <input type="text" className="signup-form-element" placeholder='Digite o seu nome completo' required/>
                     </div>
 
                     <div className='signup-form-input-div'>
                     <img src={emailIcon1} alt="ícone de e-mail" className="signup-form-icon" />
-                    <input type="text" className="signup-form-element" placeholder='Escolha um nome de usuário'/>
+                    <input type="text" className="signup-form-element" placeholder='Escolha um nome de usuário' required/>
                     </div>
 
                     <div className='signup-form-input-div'>
                     <img src={emailIcon2} alt="ícone de e-mail" className="signup-form-icon" />
-                    <input type="text" className="signup-form-element" placeholder='Digite o seu e-mail'/>
+                    <input type="email" className="signup-form-element" placeholder='Digite o seu e-mail' required/>
                     </div>
 
                     <div className='signup-form-input-div'>
                     <img src={passwordIcon} alt="ícone de senha" className="signup-form-icon" />
-                    <input type="text" className="signup-form-element" placeholder='Digite a senha'/>
+                    <input type="text" className="signup-form-element" placeholder='Digite a senha' required/>
                     </div>
 
                     <div className='signup-form-input-div'>
                     <img src={passwordIcon} alt="ícone de senha" className="signup-form-icon" />
-                    <input type="text" className="signup-form-element" placeholder='Digite a senha novamente'/>
+                    <input type="text" className="signup-form-element" placeholder='Digite a senha novamente' required/>
                     </div>
 
 

@@ -1,0 +1,62 @@
+.plano-container-section {
+    background-color: #1B4965;
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+}
+
+.plano-container-title {
+    color: #E5E5E5;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.plano-container-benefits {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.plano-container-benefit-desc {
+    color: #E5E5E5;
+    font-weight: 500;
+}
+
+.plano-container-price {
+    color: #E5E5E5;
+    font-weight: 700;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.plano-container-typeofsubscription {
+    color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #E5E5E5;
+    border-radius: 15px;
+    width: 120px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.plano-container-button {
+    color: #1B4965;
+    background-color: #E5E5E5;
+    margin: 0 auto;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 5px auto;
+    padding: 7px 0;
+}

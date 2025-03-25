@@ -1,0 +1,34 @@
+.planoscontainer-main-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    padding: 20px 0 ;
+}
+
+.planoscontainer-section-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.planoscontainer-title {
+    font-weight: 700;
+    color: #1B4965;
+    font-size: 60px;
+}
+
+.planoscontainer-subtitle {
+    color: #1B4965;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.planoscontainer-section-div {
+    display: flex;
+    gap: 20px;
+    margin: 0 30px;
+}

@@ -5,6 +5,7 @@ import ActionBanner from "./Componentes/ActionBanner/ActionBanner";
 import FirstSteps from "./Componentes/FirstSteps/FirstSteps";
 import HeadBanner from "../Home/Componentes/HeadBanner/HeadBanner";
 import MentoriaInfo from "./Componentes/MentoriaInfo/MentoriaInfo";
+import PlanosContainer from "./Componentes/PlanosContainer/PlanosContainer";
 
 function Home(){
     return(
@@ -14,6 +15,7 @@ function Home(){
     <AboutUs/>
     <MentoriaInfo/>
     <FirstSteps/>
+    <PlanosContainer/>
     <ActionBanner/>
     <Footer/>
     </div>
