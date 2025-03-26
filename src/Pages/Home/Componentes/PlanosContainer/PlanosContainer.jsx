@@ -1,5 +1,4 @@
 import './PlanosContainer.css'
-import { Link } from 'react-router-dom';
 import PlanoContainer from './PlanoContainer/PlanoContainer';
 import verifiedIcon from '../../../../assets/verifiedicon.svg'
 import plusIcon from '../../../../assets/plusicon.svg'

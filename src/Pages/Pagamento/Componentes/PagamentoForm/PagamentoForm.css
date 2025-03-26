@@ -1,0 +1,133 @@
+.pagamentoform-main-section {
+    display: flex;
+    gap: 100px;
+    background-color: #e5e5e5;
+    padding: 40px 10px;
+    justify-content: center;
+}
+
+.pagamentoform-image {
+    width: 39%;
+}
+
+.pagamentoform-form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pagamentform-form-div-date {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.pagamentform-form-div {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagamentform-form-label {
+    color: #1B4965;
+    font-size: 25px;
+}
+
+.pagamentform-form-radio-div {
+    display: flex;
+    align-items: center;
+}
+
+.pagamentform-form-radio-input-div {
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 0
+}
+
+.pagamentform-form-radio-label {
+    color: #1B4965;
+    font-weight: 700;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.pagamentform-form-input {
+    width: 400px;
+    background-color: #1B4965;
+    padding-left: 5px;
+    border-radius: 10px;
+    height: 40px;
+    color: #e5e5e5;
+}
+
+.pagamentform-form-input::placeholder {
+    color: #e5e5e5;
+    font-weight: 400;
+}
+
+.pagamentform-form-input:focus {
+    outline: none;
+}
+
+.pagamentform-form-div-cvv-date {
+    display: flex;
+}
+
+.pagamentform-form-input-cvv {
+    background-color: #1B4965;
+    color: #e5e5e5;
+    border-radius: 10px;
+    height: 40px;
+    width: 115px;
+    padding-left: 5px;
+}
+
+.pagamentform-form-input-cvv::placeholder {
+    color: #e5e5e5;
+    font-weight: 400;
+}
+
+.pagamentform-form-input-cvv:focus {
+    outline: none;
+}
+
+.pagamentform-form-input-date {
+    background-color: #1B4965;
+    color: #e5e5e5;
+    border-radius: 10px;
+    height: 40px;
+    width: 270px;
+    padding-left: 5px;
+}
+
+.pagamentform-form-input-date::placeholder {
+    color: #e5e5e5;
+    font-weight: 400;
+}
+
+.pagamentform-form-input-date:focus {
+    outline: none;
+}
+
+.pagamentform-form-radio-plan {
+    color: #1B4965;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.pagamentform-form-div-plan {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pagamentoform-submit-button {
+    background-color: #1B4965;
+    color: #e5e5e5;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin: 5px 0;
+}

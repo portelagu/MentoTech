@@ -1,0 +1,20 @@
+.pagamento-title-section {
+    background-color: #1B4965;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.pagamento-title-h1 {
+    color: #e5e5e5;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.pagamento-title-p {
+    color: #e5e5e5;
+    font-size: 20px;
+    margin: 10px 0;
+}
