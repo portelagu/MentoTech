@@ -17,8 +17,8 @@
 .plano-container-benefits {
     display: flex;
     align-items: center;
-    gap: 5px;
-    margin: 10px 0;
+    gap: 4px;
+    margin: 10px 0 10px 7px;
 }
 
 .plano-container-benefit-desc {

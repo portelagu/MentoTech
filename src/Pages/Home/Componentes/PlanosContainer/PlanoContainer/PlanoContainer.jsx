@@ -2,7 +2,9 @@ import './PlanoContainer.css'
 import verifiedIcon from '../../../../../assets/verifiedicon.svg'
 import { Link } from 'react-router-dom';
 
+
 function PlanoContainer(props){
+
     return(
         <>
         <section className="plano-container-section">
@@ -19,7 +21,7 @@ function PlanoContainer(props){
             <div className="plano-container-benefits">
                 <img src={verifiedIcon} alt="icone"/>
                 <p className="plano-container-benefit-desc">{props.benefit3}</p>
-            </div>
+            </div>  
 
             <p className="plano-container-price">R${props.price}</p>
             <p className="plano-container-typeofsubscription">Plano Mensal</p>
