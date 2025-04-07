@@ -1,0 +1,111 @@
+.card-container {
+    width: 280px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f2f2f2;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    line-height: 0;
+  }
+  
+  
+  .card-content {
+    background-color: #153c5c;
+    color: white;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .profile-name {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .profile-role {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  
+  .section-title {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .days-container {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  
+  .day-box {
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .day-box.ativo {
+    background-color: #B4B4B4;
+    color: #1E1E1E;
+  }
+  
+  .day-box.inativo {
+    background-color: #1E1E1E; 
+    color: #474747;
+  }
+  
+  
+  .tags-container {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  
+  .tag {
+    background-color: #E5E5E5;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    color: #1B4965;
+    font-weight: bold;
+  }
+  
+  .contact-text {
+    font-size: 0.75rem;
+    color: #ddd;
+    margin-top: 8px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+  }
+  
+  .contact-button {
+    background-color: white;
+    color: #153c5c;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact-button:hover {
+    background-color: #ddd;
+  }
+  
