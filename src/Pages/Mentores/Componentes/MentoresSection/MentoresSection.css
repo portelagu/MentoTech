@@ -36,7 +36,10 @@ margin: 20px 0;
 }
 
 .mentores-profile-section {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem; 
+    padding: 2rem;
     margin: 20px 0;
-}
+  }
+  
