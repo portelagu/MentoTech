@@ -1,13 +1,11 @@
-
-
 .fale-conosco-title {
     background-color: #1B4965;
     font-weight: 700;
     color: #e5e5e5;
-    font-size: 65px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
-    padding: 5px 0;
+    padding: 20px 5px;
 }
 
 .fale-conosco-desc {

@@ -25,7 +25,7 @@ function PlanosContainer(){
             <PlanoContainer 
             title="Plano Silver"
             icon={plusIcon}
-            benefit1="Benefícios do plano Básico"
+            benefit1="Todos os benefícios do plano anterior"
             benefit2="Prioridade no agendamento"
             benefit3="Gravação das mentorias"
             price="19,99"
@@ -34,7 +34,7 @@ function PlanosContainer(){
             <PlanoContainer 
             title="Plano Gold"
             icon={plusIcon}
-            benefit1="Benefícios do plano Silver"
+            benefit1="Todos os benefícios do plano anterior"
             benefit2="Workshops e Masterclasses"
             benefit3="Insígnia especial no perfil"
             price="29,99"

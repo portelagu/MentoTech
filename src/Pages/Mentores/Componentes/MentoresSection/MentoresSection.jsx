@@ -172,7 +172,7 @@ function MentoresSection() {
           <input
             type="text"
             name="search"
-            placeholder="Pesquisar mentores específicos por área de especialidade..."
+            placeholder="Pesquisar mentores específicos por área de especialidade, nome ou cargo..."
             className="mentores-searchbar-input"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
