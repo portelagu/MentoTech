@@ -72,7 +72,7 @@ function Login(){
 
                     <div className='signin-form-input-div'>
                     <img src={passwordIcon} alt="ícone de senha" className="signin-form-icon" />
-                    <input type="text" className="signin-form-element" placeholder='Digite a senha' required/>
+                    <input type="password" className="signin-form-element" placeholder='Digite a senha' required/>
                     </div>
 
                     <div className='signin-form-input-submit-div'>

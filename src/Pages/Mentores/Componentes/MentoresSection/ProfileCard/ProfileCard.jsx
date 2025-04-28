@@ -11,8 +11,8 @@ function ProfileCard(props){
         let timerInterval;
         Swal.fire({
             icon: "error",
-            title: "Eita...",
-            text: "Você precisa estar logado para entrar em contato com um mentor!",
+            title: "Permissão Negada",
+            text: "Epa! Antes de entrar em contato com um(a) mentor(a), é preciso acessar sua conta",
           });
     }
 

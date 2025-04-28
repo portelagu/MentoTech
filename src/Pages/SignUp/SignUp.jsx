@@ -24,12 +24,10 @@ function SignUp(){
         let timerInterval;
         if (valorsenha1.current.value !== valorsenha2.current.value) {
             Swal.fire({
-                title: "ERRO",
-                text: "Houve um erro ao registrar seu cadastro. Tente novamente e verifique se  as informações estão corretas",
+                title: "Erro",
+                text: "As senhas informadas devem ser a mesma.",
                 icon: "error"
-              }).then(() => {
-                e.target.reset(); 
-            });;
+              })
         } else {
             Swal.fire({
                 title: "Registrado!",
@@ -70,12 +68,12 @@ function SignUp(){
 
                     <div className='signup-form-input-div'>
                     <img src={passwordIcon} alt="ícone de senha" className="signup-form-icon" />
-                    <input type="text" className="signup-form-element" placeholder='Digite a senha' required ref={valorsenha1}/>
+                    <input type="password" className="signup-form-element" placeholder='Digite a senha' required ref={valorsenha1}/>
                     </div>
 
                     <div className='signup-form-input-div'>
                     <img src={passwordIcon} alt="ícone de senha" className="signup-form-icon" />
-                    <input type="text" className="signup-form-element" placeholder='Digite a senha novamente' required ref={valorsenha2}/>
+                    <input type="password" className="signup-form-element" placeholder='Digite a senha novamente' required ref={valorsenha2}/>
                     </div>
 
 
