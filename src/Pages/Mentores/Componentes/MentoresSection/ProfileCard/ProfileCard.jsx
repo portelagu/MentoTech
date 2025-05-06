@@ -10,10 +10,12 @@ function ProfileCard(props) {
             icon: "error",
             title: "Permissão Negada",
             text: "Epa! Antes de entrar em contato com um(a) mentor(a), é preciso acessar sua conta",
+            confirmButtonColor: "#1B4965",
         });
     }
 
     return (
+      <div className="card-wrapper">
         <div className="card-container">
             <img
                 src={props.imagem}
@@ -55,6 +57,7 @@ function ProfileCard(props) {
                 <button className="contact-button" onClick={handleSubmit}>Solicitar contato</button>
             </div>
         </div>
+      </div>
     );
 }
 

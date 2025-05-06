@@ -19,7 +19,8 @@ function FaleConoscoForm(){
 Swal.fire({
         title: "Mensagem enviada!",
         text: "Agradecemos a sua mensagem. Te retornaremos o mais rápido possível.",
-        icon: "success"
+        icon: "success",
+        confirmButtonColor: "#1B4965"
     }).then(() => {
         e.target.reset(); 
     });

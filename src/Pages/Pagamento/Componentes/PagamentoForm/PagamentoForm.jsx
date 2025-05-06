@@ -85,7 +85,8 @@ Swal.fire({
     Swal.fire({
         title: "Pagamento efetuado!",
         text: "Agradecemos a sua assinatura. Não se esqueça de verificar o seu e-mail para futuras atualizações.",
-        icon: "success"
+        icon: "success",
+        confirmButtonColor: "#1B4965"
     }).then(() => {
         e.target.reset(); 
     });

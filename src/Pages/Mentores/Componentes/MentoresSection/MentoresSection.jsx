@@ -148,7 +148,7 @@ function MentoresSection() {
         { label: 'Q', ativo: false },
         { label: 'Q', ativo: false },
         { label: 'S', ativo: false },
-        { label: 'S', ativo: true,horarios: ['19:00 - 21:30'] },
+        { label: 'S', ativo: true,horarios: ['09:30 - 11:00','20:00 - 20:30'] },
       ],
     },
   ];

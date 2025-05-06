@@ -26,13 +26,15 @@ function SignUp(){
             Swal.fire({
                 title: "Erro",
                 text: "As senhas informadas devem ser a mesma.",
-                icon: "error"
+                icon: "error",
+                confirmButtonColor: "#1B4965"
               })
         } else {
             Swal.fire({
                 title: "Registrado!",
                 text: "Registro feito com sucesso. Verifique seu e-mail para os próximos passos",
-                icon: "success"
+                icon: "success",
+                confirmButtonColor: "#1B4965"
               }).then(() => {
                 e.target.reset(); 
             });;

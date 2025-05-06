@@ -31,8 +31,9 @@ function Login(){
           return Swal.fire({
             title: "Código de Verificação",
             input: "password",
-            inputLabel: "Código enviado",
-            inputPlaceholder: "Insira aqui o código enviado por e-mail",
+            confirmButtonColor: "#1B4965",
+            inputLabel: "Te enviamos um código de verificação por e-mail.",
+            inputPlaceholder: "Insira aqui o código enviado",
             inputAttributes: {
               maxlength: "10",
               autocapitalize: "off",
@@ -43,7 +44,8 @@ function Login(){
           Swal.fire({
             title: "Validado com sucesso!",
             text: "Por favor, recarregue a página.",
-            icon: "success"
+            icon: "success",
+            confirmButtonColor: "#1B4965"
           });
         });
       
