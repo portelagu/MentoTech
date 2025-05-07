@@ -24,8 +24,8 @@ function SignUp(){
         let timerInterval;
         if (valorsenha1.current.value !== valorsenha2.current.value) {
             Swal.fire({
-                title: "Erro",
-                text: "As senhas informadas devem ser a mesma.",
+                title: "Senhas diferentes",
+                text: "Verifique novamente as senhas digitadas.",
                 icon: "error",
                 confirmButtonColor: "#1B4965"
               })

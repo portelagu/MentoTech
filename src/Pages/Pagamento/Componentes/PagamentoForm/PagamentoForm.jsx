@@ -83,8 +83,8 @@ Swal.fire({
 
   if (result.dismiss === Swal.DismissReason.timer) {
     Swal.fire({
-        title: "Pagamento efetuado!",
-        text: "Agradecemos a sua assinatura. Não se esqueça de verificar o seu e-mail para futuras atualizações.",
+        title: "Pedido realizado!",
+        text: "O pagamento do seu pedido está em andamento. Não se esqueça de verificar o seu e-mail para futuras atualizações.",
         icon: "success",
         confirmButtonColor: "#1B4965"
     }).then(() => {

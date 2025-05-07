@@ -1,6 +1,7 @@
 import React from 'react';
 import './ProfileCard.css';
 import Swal from 'sweetalert2';
+import { Link } from 'react-router-dom';
 
 function ProfileCard(props) {
 
@@ -11,6 +12,8 @@ function ProfileCard(props) {
             title: "Permissão Negada",
             text: "Epa! Antes de entrar em contato com um(a) mentor(a), é preciso acessar sua conta",
             confirmButtonColor: "#1B4965",
+            footer: `<a href="/login"> <i>Entrar na minha conta<i/><a/>`
+            
         });
     }
 
