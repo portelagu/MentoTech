@@ -31,8 +31,8 @@ function SignUp(){
               })
         } else {
             Swal.fire({
-                title: "Registrado!",
-                text: "Registro feito com sucesso. Verifique seu e-mail para os próximos passos",
+                title: "Registrado com sucesso",
+                text: "Verifique seu e-mail para validar o registro",
                 icon: "success",
                 confirmButtonColor: "#1B4965"
               }).then(() => {
