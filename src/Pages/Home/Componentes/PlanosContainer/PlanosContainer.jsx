@@ -5,7 +5,7 @@ import plusIcon from '../../../../assets/plusicon.svg'
 
 function PlanosContainer(){
     return(
-        <>
+        <div className='planoscontainer'>
         <main className="planoscontainer-main-section">
             <div className="planoscontainer-section-header">
                 <h1 className="planoscontainer-title">Se torne um apoiador</h1>
@@ -41,7 +41,7 @@ function PlanosContainer(){
             />
             </div>
         </main>
-        </>
+        </div>
     )
 }
 
